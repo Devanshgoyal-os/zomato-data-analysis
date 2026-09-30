@@ -1,185 +1,151 @@
-# 📊 Zomato Dataset Analysis
+# 🍽️ Zomato Data Analysis
 
-## 🔍 Overview
+## 📌 Overview
 
-This project focuses on analyzing the **Zomato restaurant dataset** using Python and data visualization techniques.
+This project performs Exploratory Data Analysis (EDA) on the Zomato restaurant dataset using Python.
 
-The project explores restaurant ratings, cuisines, pricing, locations, customer votes, and other factors to identify useful patterns and trends in the restaurant industry.
+The analysis focuses on understanding restaurant ratings, pricing, cuisines, locations, customer votes, online delivery, and table booking services through data cleaning, statistical analysis, and data visualization.
 
----
+## 🎯 Objectives
 
-## 🧠 Objectives
-
-* Clean and preprocess the Zomato dataset
 * Analyze restaurant ratings and customer votes
-* Explore popular restaurant types and cuisines
-* Analyze pricing patterns
-* Study location-wise restaurant trends
-* Visualize important patterns using graphs and charts
+* Identify popular countries and cities
+* Study restaurant pricing patterns
+* Analyze cuisines offered by restaurants
+* Understand online delivery and table booking availability
+* Explore relationships between numerical features
 * Generate meaningful insights from the dataset
 
----
+## 📊 Analysis Performed
 
-## 🧰 Technologies Used
+* Data Cleaning and Preprocessing
+* Missing Value Analysis
+* Duplicate Record Analysis
+* Country-wise Restaurant Analysis
+* City-wise Restaurant Analysis
+* Restaurant Rating Analysis
+* Rating Category Analysis
+* Votes vs Rating Analysis
+* Online Delivery Analysis
+* Table Booking Analysis
+* Cost Analysis
+* Price Range vs Rating Analysis
+* Cuisine Analysis
+* Correlation Analysis
+* Automated Data Insights
 
-| Category                | Technologies        |
-| ----------------------- | ------------------- |
-| Programming Language    | Python              |
-| Data Handling           | Pandas, NumPy       |
-| Data Visualization      | Matplotlib, Seaborn |
-| Development Environment | Jupyter Notebook    |
+## 📈 Key Visualizations
 
----
+The project includes visualizations such as:
 
-## 📂 Dataset
+* Restaurant Rating Distribution
+* Top Countries
+* Top Cities
+* Rating Categories
+* Votes vs Rating
+* Online Delivery Distribution
+* Table Booking Distribution
+* Cost Distribution
+* Price Range vs Rating
+* Top Cuisines
+* Correlation Heatmap
 
-The dataset contains information about restaurants listed on Zomato, including:
+## 🛠️ Technologies Used
 
-* Restaurant name
-* Location
-* Restaurant type
-* Cuisine
-* Average cost for two
-* Ratings
-* Number of votes
-* Online ordering availability
-* Table booking availability
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+* Excel Dataset
 
-The dataset file should be placed in the project directory.
-
-Example:
-
-```text
-zomato.csv
-```
-
----
-
-## 📈 Analysis Performed
-
-The project includes analysis of:
-
-### 🍽️ Restaurant Types
-
-Identifying the most common types of restaurants available in the dataset.
-
-### ⭐ Restaurant Ratings
-
-Studying the distribution of restaurant ratings and understanding common rating ranges.
-
-### 🍕 Popular Cuisines
-
-Analyzing which cuisines are most frequently offered by restaurants.
-
-### 💰 Pricing Analysis
-
-Exploring the average cost for two people and comparing pricing patterns.
-
-### 📍 Location Analysis
-
-Finding locations with a high concentration of restaurants.
-
-### 👍 Votes Analysis
-
-Studying customer votes and their relationship with restaurant ratings.
-
-### 📊 Online Ordering & Table Booking
-
-Analyzing the availability of online ordering and table booking services.
-
----
-
-## 📊 Visualizations
-
-The project uses different visualizations such as:
-
-* Bar charts
-* Count plots
-* Histograms
-* Pie charts
-* Box plots
-* Heatmaps
-* Scatter plots
-
-These visualizations help identify trends and relationships within the dataset.
-
----
-
-## 💡 Key Insights
-
-Some of the insights explored in this project include:
-
-* Distribution of restaurant ratings
-* Most popular restaurant types
-* Most frequently available cuisines
-* Locations with a large number of restaurants
-* Relationship between cost and ratings
-* Relationship between votes and ratings
-* Availability of online ordering and table booking
-
-> The exact findings depend on the version and preprocessing of the dataset used in the notebook.
-
----
-
-## 🚀 How to Run
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/<your-username>/zomato-datasets.git
-```
-
-### 2. Open the project folder
-
-```bash
-cd zomato-datasets
-```
-
-### 3. Install required libraries
-
-```bash
-pip install pandas numpy matplotlib seaborn jupyter
-```
-
-### 4. Start Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-### 5. Open the notebook
-
-Open the Zomato analysis notebook and run the cells.
-
-Make sure `zomato.csv` is available in the required project directory.
-
----
-
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```text
-zomato-datasets/
+Zomato-Data-Analysis/
 │
-├── zomato.csv
-├── Zomato_Analysis.ipynb
+├── Zomato_Data_Analysis_Executed.ipynb
 └── README.md
 ```
 
----
+## 🔄 Project Workflow
 
-## 🎯 Future Improvements
+```text
+Zomato Dataset
+      ↓
+Data Loading
+      ↓
+Data Cleaning
+      ↓
+Missing Value Analysis
+      ↓
+Exploratory Data Analysis
+      ↓
+Statistical Analysis
+      ↓
+Data Visualization
+      ↓
+Correlation Analysis
+      ↓
+Insights & Conclusions
+```
 
-* Build an interactive dashboard using Power BI or Streamlit
-* Add more advanced statistical analysis
-* Develop a restaurant rating prediction model
-* Perform cuisine-based recommendation analysis
-* Add interactive filters for location, price, and rating
+## 📌 Dataset
 
----
+The project uses the Zomato restaurant dataset containing restaurant-level information such as:
+
+* Restaurant name
+* Country
+* City
+* Cuisines
+* Average cost
+* Rating
+* Votes
+* Online delivery
+* Table booking
+* Price range
+
+A separate country-code mapping file is used to associate country codes with country names.
+
+## 💡 Insights
+
+The analysis helps understand:
+
+* Distribution of restaurant ratings
+* Restaurant concentration across different locations
+* Relationship between votes and ratings
+* Pricing patterns across restaurants
+* Availability of online delivery and table booking
+* Popular cuisines
+* Relationships among numerical variables
+
+## 🚀 How to Run
+
+1. Clone or download this repository.
+2. Open `Zomato_Data_Analysis_Executed.ipynb`.
+3. Open the notebook using Jupyter Notebook, JupyterLab, VS Code, or Google Colab.
+4. Run the notebook cells from top to bottom.
+
+## 📚 Project Purpose
+
+This project was developed as a data analysis and machine learning portfolio project to demonstrate practical skills in:
+
+* Data preprocessing
+* Exploratory Data Analysis
+* Data visualization
+* Statistical understanding
+* Python programming
+* Insight generation
 
 ## 👨‍💻 Author
 
 **Devansh Goyal**
+
+B.Tech — Computer Science Engineering (Artificial Intelligence & Machine Learning)
+
+ABES Engineering College, Ghaziabad
+
 
 B.Tech – Computer Science Engineering
 Artificial Intelligence & Machine Learning
